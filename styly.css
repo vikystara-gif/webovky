@@ -1,0 +1,149 @@
+/* VZHLED STRÁNKY */
+body {
+ body {
+  background: linear-gradient(135deg, #ffd1e8, #ffecf7);
+}
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+/* Všechny obrázky stejné velikosti a stylu */
+img {
+  width: 450px;              /* jednotná šířka */
+  height: auto;              /* automatická výška, aby se nedeformovaly */
+  object-fit: cover;         /* obrázek se vyplní, ale nezkreslí */
+  display: block;            /* aby šly zarovnat na střed */
+  margin: 20px auto;         /* středové zarovnání s mezerou nahoře/dole */
+  border-radius: 10px;       /* zaoblené rohy */
+  border: 6px solid #ffc1d8; /* světle růžový rámeček */
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.4); /* jemný stín */
+}
+
+/* MENU */
+.menu {
+  background: #c2185b;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.menu a:hover {
+  background: #e91e63;
+}
+
+/* HLAVNÍ OBSAH */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.8);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* KARTA S OBRÁZKEM */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* OBRÁZEK */
+.card img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  border: 4px solid #f8bbd0;
+
+}
+body.submenu {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* Všechny obrázky stejné velikosti a stylu */
+img {
+  width: 450px;              /* jednotná šířka */
+  height: auto;              /* automatická výška, aby se nedeformovaly */
+  object-fit: cover;         /* obrázek se vyplní, ale nezkreslí */
+  display: block;            /* aby šly zarovnat na střed */
+  margin: 20px auto;         /* středové zarovnání s mezerou nahoře/dole */
+  border-radius: 10px;       /* zaoblené rohy */
+  border: 6px solid #ffc1d8; /* světle růžový rámeček */
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.4); /* jemný stín */
+}
+
+
+.submenu a {
+  background: #f48fb1;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.25s;
+  text-align: center;
+}
+
+.submenu a:hover {
+  background: #ec407a;
+  transform: scale(1.05);
+}
+}
+img {
+  width: 600px;       /* jednotná šířka */
+  height: auto;       /* automatická výška, aby se nedeformoval */
+  object-fit: cover;  /* hezké vyplnění, pokud bude výška pevná */
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+
+}
+
+img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;   /* ořízne obrázek, ale nedeformuje */
+  border: 6px solid #ffc1d8;
+  box-shadow: 0 4px 12px rgba(255, 182, 193, 0.4);
+  }
+/* univerzální tlačítka */
+.btn {
+  display: inline-block;
+  background: #f48fb1;      /* světle růžová */
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 10px 0 0;    /* mezera mezi tlačítky */
+  transition: 0.25s;
+}
+
+.btn:hover {
+  background: #ec407a;      /* tmavší růžová při hoveru */
+  transform: scale(1.05);
+}
+
+/* kontejner pro zarovnání tlačítek doprostřed */
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
